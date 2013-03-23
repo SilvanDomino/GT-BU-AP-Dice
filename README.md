@@ -1,2 +1,2 @@
-GT-BU-AP-Dice
-=============
+advanced_physics_dice
+=====================

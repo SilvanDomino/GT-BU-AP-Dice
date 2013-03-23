@@ -1,0 +1,34 @@
+﻿Build started 2/25/2013 8:00:01 PM.
+     1>Project "D:\Libraries\cyclone-physics-master\build\demo_ragdoll_vc8.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "..\tmp\ragdoll\Debug\demo_ragdoll.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "..\tmp\ragdoll\Debug\demo_ragdoll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\tmp\ragdoll\Debug\\" /Fd"..\tmp\ragdoll\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demos\ragdoll\ragdoll.cpp ..\src\demos\app.cpp ..\src\demos\timing.cpp
+         timing.cpp
+         app.cpp
+         ragdoll.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\tmp\ragdoll\Debug\main1.obj" /Fd"..\tmp\ragdoll\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demos\main.cpp
+         main.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Libraries\cyclone-physics-master\build\..\bin\demo_ragdoll.exe) does not match the Linker's OutputFile property value (D:\Libraries\cyclone-physics-master\bin\ragdoll_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(demo_ragdoll) does not match the Linker's OutputFile property value (ragdoll_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\ragdoll_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib cyclone_d.lib opengl32.lib glu32.lib glut32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\tmp\ragdoll\Debug\demo_ragdoll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\tmp\ragdoll\Debug/ragdoll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\demo_ragdoll.lib" /MACHINE:X86 ..\tmp\ragdoll\Debug\ragdoll.obj
+         ..\tmp\ragdoll\Debug\app.obj
+         ..\tmp\ragdoll\Debug\timing.obj
+         ..\tmp\ragdoll\Debug\main1.obj
+         "D:\Libraries\cyclone-physics-master\lib\cyclone_d.lib"
+     1>cyclone_d.lib(joints.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         demo_ragdoll_vc8.vcxproj -> D:\Libraries\cyclone-physics-master\build\..\bin\demo_ragdoll.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\bin\ragdoll_d.exe;#1" /manifest ..\tmp\ragdoll\Debug\demo_ragdoll.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "..\tmp\ragdoll\Debug\demo_ragdoll.unsuccessfulbuild".
+         Touching "..\tmp\ragdoll\Debug\demo_ragdoll.lastbuildstate".
+     1>Done Building Project "D:\Libraries\cyclone-physics-master\build\demo_ragdoll_vc8.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.02

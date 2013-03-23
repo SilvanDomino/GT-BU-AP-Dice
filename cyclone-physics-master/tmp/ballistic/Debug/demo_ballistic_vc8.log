@@ -1,0 +1,27 @@
+﻿Build started 2/25/2013 9:45:36 PM.
+     1>Project "D:\Libraries\cyclone-physics-master\build\demo_ballistic_vc8.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "..\tmp\ballistic\Debug\demo_ballistic.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Libraries\cyclone-physics-master\build\..\bin\demo_ballistic.exe) does not match the Linker's OutputFile property value (D:\Libraries\cyclone-physics-master\bin\ballistic_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(demo_ballistic) does not match the Linker's OutputFile property value (ballistic_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\ballistic_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib cyclone_d.lib opengl32.lib glu32.lib glut32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\tmp\ballistic\Debug\demo_ballistic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\tmp\ballistic\Debug/ballistic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\demo_ballistic.lib" /MACHINE:X86 ..\tmp\ballistic\Debug\ballistic.obj
+         ..\tmp\ballistic\Debug\app.obj
+         ..\tmp\ballistic\Debug\timing.obj
+         ..\tmp\ballistic\Debug\main1.obj
+         "D:\Libraries\cyclone-physics-master\lib\cyclone_d.lib"
+     1>cyclone_d.lib(particle.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         demo_ballistic_vc8.vcxproj -> D:\Libraries\cyclone-physics-master\build\..\bin\demo_ballistic.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\bin\ballistic_d.exe;#1" /manifest ..\tmp\ballistic\Debug\demo_ballistic.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "..\tmp\ballistic\Debug\demo_ballistic.unsuccessfulbuild".
+         Touching "..\tmp\ballistic\Debug\demo_ballistic.lastbuildstate".
+     1>Done Building Project "D:\Libraries\cyclone-physics-master\build\demo_ballistic_vc8.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.13
