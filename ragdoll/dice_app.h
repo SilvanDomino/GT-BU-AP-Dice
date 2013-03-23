@@ -13,10 +13,10 @@ public:
 	DiceApp( );
 	~DiceApp( );
 	GameDie *_dice;
-	void display( );
-	void update( );	
+	virtual void display( );
+	virtual void update( );	
 	virtual const char *getTitle( );
-
+	
 	void mouse( int button, int state, int x, int y );
 	void mouseDrag( int x, int y );	
 };

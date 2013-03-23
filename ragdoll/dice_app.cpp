@@ -5,8 +5,7 @@
 #include "dice.h"
 
 DiceApp :: DiceApp( ) : Application( )
-{
-	
+{	
 	_tableTop = new TableTop( );
 	_dice = new GameDie();
 }
@@ -63,10 +62,10 @@ const char *DiceApp :: getTitle( )
 
 void DiceApp :: mouse( int button, int state, int x, int y )
 {
-	_tableTop	-> mouse( button, state, x, y );
+	//_tableTop	-> mouse( button, state, x, y );
 }
 
 void DiceApp :: mouseDrag( int x, int y )
 {
-	_tableTop	-> mouseDrag( x, y );
+//	_tableTop	-> mouseDrag( x, y );
 }

@@ -77,7 +77,7 @@ void mouse(int button, int state, int x, int y)
  */
 void reshape(int width, int height)
 {
-	_diceApp	-> resize( width, height );
+	//_diceApp	-> resize( width, height );
 }
 
 /**
@@ -107,7 +107,7 @@ void main(int argc, char** argv)
 
     // Create the application and its window
 	_diceApp	= new DiceApp( );
-	_diceApp	-> initGraphics( );
+	//_diceApp	-> initGraphics( );
 
     createWindow( _diceApp	-> getTitle( ) );
 

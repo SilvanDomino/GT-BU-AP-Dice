@@ -81,16 +81,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\cyclone-physics-master\src\demos\timing.h" />
-    <ClInclude Include="app.h" />
-    <ClInclude Include="dice.h" />
     <ClInclude Include="dice_app.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TableTop.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="app.cpp" />
-    <ClCompile Include="dice.cpp" />
     <ClCompile Include="dice_app.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">

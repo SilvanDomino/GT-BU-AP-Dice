@@ -11,7 +11,7 @@
 #include "timing.h"
 using namespace cyclone;
 
-class TableTop : public RigidBodyApplication
+class TableTop// : public RigidBodyApplication
 {
 private:
 	CollisionPlane	*_collisionPlane;

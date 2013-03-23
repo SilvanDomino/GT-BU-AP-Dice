@@ -6,14 +6,14 @@
 #include "app.h"
 //#include 
 //#define ROD_COUNT 15
-TableTop :: TableTop( ) : RigidBodyApplication( )
+TableTop :: TableTop( )// : RigidBodyApplication( )
 {	
 	//generateContacts( );
 }
 
 void TableTop :: generateContacts( )
 {
-	this -> _collisionPlane = new CollisionPlane( );
+	/*this -> _collisionPlane = new CollisionPlane( );
 	this -> _tableJoint		= new Joint( );
 	this -> cData			= CollisionData( );
 	this -> cData.contacts	= new Contact[this -> maxContacts];
@@ -26,7 +26,7 @@ void TableTop :: generateContacts( )
 	this -> cData.restitution	= 0.5f;
 	this -> cData.tolerance		= 0.0f;
 
-	this -> cData.addContacts( this -> _tableJoint -> addContact( this -> cData.contacts, this -> cData.contactsLeft ) );
+	this -> cData.addContacts( this -> _tableJoint -> addContact( this -> cData.contacts, this -> cData.contactsLeft ) );*/
 	
 }
 
